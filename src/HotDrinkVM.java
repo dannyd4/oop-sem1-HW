@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class HotDrinkVM extends VendingMachine {
+public class HotDrinkVM extends VendingMachine<HotDrink> {
 
     private ArrayList<HotDrink> htDrList;
     public HotDrinkVM(String nameOfVendingMachine) {

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class DrinkVendingMachine extends VendingMachine{
+public class DrinkVendingMachine extends VendingMachine<Drink>{
 
 
     private ArrayList<Drink> drList;

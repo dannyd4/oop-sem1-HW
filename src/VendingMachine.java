@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class VendingMachine {
+public class VendingMachine<T> {
     private String name = "default";
     private ArrayList<Product> goods;
 
